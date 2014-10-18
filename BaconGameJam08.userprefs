@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Trap.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\NuttenCollector.cs">
     <Files>
-      <File FileName="Assets\Scripts\Trap.cs" Line="18" Column="2" />
-      <File FileName="Assets\Scripts\RatSwarm.cs" Line="17" Column="3" />
+      <File FileName="Assets\Scripts\NuttenCollector.cs" Line="23" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
