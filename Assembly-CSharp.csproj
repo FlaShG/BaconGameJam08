@@ -46,10 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Attackpoint.cs" />
-     <Compile Include="Assets\Scripts\RatSwarm.cs" />
-     <Compile Include="Assets\Scripts\Trap.cs" />
-     <Compile Include="Assets\Scripts\Waypoint.cs" />
+     <Compile Include="Assets\Scripts\Nutte.cs" />
+     <Compile Include="Assets\Scripts\NuttenCollector.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
