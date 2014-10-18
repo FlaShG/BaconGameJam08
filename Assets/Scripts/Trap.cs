@@ -4,8 +4,9 @@ using System.Collections;
 [RequireComponent(typeof(Animator))]
 public class Trap : MonoBehaviour {
 
+	public Attackpoint[] attackpoints;
+	public float duration;
 	public int triggercount;
-	public int killAmount;
 	// Use this for initialization
 	void Start () {
 	
@@ -16,13 +17,16 @@ public class Trap : MonoBehaviour {
 	
 	}
 
-	void OnRatEnter (RatSwarm rats)
+	void OnRatEnter ()
 	{
 		if (triggercount > 0) {
 						GetComponent<Animator> ().SetTrigger ("Trap");
-						rats.KillAmount (killAmount);
-						triggercount--;
-				}
-
+			foreach (Attackpoint element in attackpoints)
+			{
+				element.Kill();
+			}
+			triggercount--;
+		}
+		
 	}
 }
