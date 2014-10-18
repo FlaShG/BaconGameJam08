@@ -12,4 +12,9 @@ public class RatSwarm : MonoBehaviour
     {
 	
 	}
+
+	public void KillAmount(int amount)
+	{
+
+	}
 }
