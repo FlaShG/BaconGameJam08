@@ -39,7 +39,11 @@ public class RatSwarm : MonoBehaviour
             waypoint = waypoint.next;
             way -= dist;
         }
+        transform.rotation = Quaternion.LookRotation(waypoint.transform.position - transform.position);
+
         transform.position = Vector3.MoveTowards(transform.position, waypoint.transform.position, way);
+
+        CheckTriggerPoints();
 	}
 
 	public void KillAmount(int amount)
@@ -50,5 +54,24 @@ public class RatSwarm : MonoBehaviour
     public float lineTime
     {
         get { return rats * (25f / 10000f / speed); }
+    }
+
+    private Vector3 lastGridPosition;
+    private void CheckTriggerPoints()
+    {
+        var gridPosition = transform.position;
+        gridPosition.x = Mathf.Round(gridPosition.x);
+        gridPosition.z = Mathf.Round(gridPosition.z);
+
+        if(gridPosition != lastGridPosition)
+        {
+            RaycastHit hit;
+            if(Physics.Raycast(gridPosition + Vector3.up * 10, Vector3.down, out hit, 10))
+            {
+                hit.collider.SendMessage("EnterSwarm", this, SendMessageOptions.DontRequireReceiver);
+            }
+        }
+
+        lastGridPosition = gridPosition;
     }
 }
