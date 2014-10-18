@@ -35,6 +35,7 @@ public class RatSwarm : MonoBehaviour
         if(dist < way)
         {
             transform.position = waypoint.transform.position;
+            waypoint.SendMessage("EnterSwarm", this, SendMessageOptions.DontRequireReceiver);
             waypoint = waypoint.next;
             way -= dist;
         }
