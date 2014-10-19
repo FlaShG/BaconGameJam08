@@ -3,7 +3,7 @@ using System.Collections;
 
 public class NuttenCollector : MonoBehaviour {
 
-    public GameObject moneysplash;
+    public ParticleSystem moneysplash;
     public SoundCollection nuttenSounds;
     public SoundCollection OhyeahSounds;
 	public int nuttenCollected;
@@ -23,7 +23,7 @@ public class NuttenCollector : MonoBehaviour {
 		{
 			Destroy(collision.gameObject);
 			nuttenCollected++;
-            Instantiate(moneysplash, collision.contacts[0].point,Quaternion.identity);
+            moneysplash.Emit(20);
             audio.PlayOneShot(nuttenSounds.GetRandom());
 		}
         if(nuttenCollected%50==0)
