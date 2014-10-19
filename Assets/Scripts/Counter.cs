@@ -4,7 +4,7 @@ using System.Collections;
 public class Counter : MonoBehaviour {
 
     public static int cash;
-    public static float multiplier;
+    public static float multiplier = 1f;
 	public TextMesh text;
 	// Use this for initialization
 	void Start () {
@@ -25,7 +25,7 @@ public class Counter : MonoBehaviour {
 
     public void UpdateText(float count)
     {
-        text.text = count + "";
+        text.text = "Coke Multiplier: " + (int)count + "x";
         multiplier = count;
     }
 	
