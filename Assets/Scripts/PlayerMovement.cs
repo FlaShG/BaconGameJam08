@@ -49,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
             else
             {
                 sniff = false;
-                power += (int)Counter.multiplier*100;
+
             }
         }
 
