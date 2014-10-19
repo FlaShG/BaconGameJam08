@@ -21,7 +21,6 @@ public class GameEventManager : MonoBehaviour {
 	}
     IEnumerator MakeCokeline()
     {
-        print ("ficken");
         nuttenspawner.enabled=false;
         var cl = Instantiate (cokeline) as Cokeline;
         yield return StartCoroutine(cl.DoCoke());
