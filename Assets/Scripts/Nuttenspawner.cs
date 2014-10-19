@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Nuttenspawner : MonoBehaviour {
-
+	public float speed = 1f;
 	public Nutte[] nutten;
 	// Use this for initialization
 	void Start () {
@@ -17,7 +17,7 @@ public class Nuttenspawner : MonoBehaviour {
 	void SpawnNutte()
 	{
 		Instantiate (nutten[Random.Range(0,nutten.Length)], gameObject.transform.position, Quaternion.Euler(0, 180, 0));
-		Invoke ("SpawnNutte", 1f);
+		Invoke ("SpawnNutte", speed);
 	}
 
 }

@@ -3,9 +3,11 @@ using System.Collections;
 
 public class Nutte : MonoBehaviour {
 	public float force;
+	public float minforce = -150f;
+	public float maxforce = -10f;
 	// Use this for initialization
 	void Start () {
-		force = Random.Range (-100f, 100f);
+		force = Random.Range (minforce, maxforce);
 		gameObject.rigidbody2D.AddForce(new Vector2(force,0));
 	}
 	
