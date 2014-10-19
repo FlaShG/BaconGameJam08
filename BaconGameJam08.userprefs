@@ -1,16 +1,17 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameEventManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerMovement.cs">
     <Files>
-      <File FileName="BaconGameJam08.sln" Line="42" Column="1" />
-      <File FileName="Assets\Scripts\Counter.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\NuttenCollector.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlayerMovement.cs" Line="1" Column="1" />
+      <File FileName="BaconGameJam08.sln" Line="43" Column="1" />
+      <File FileName="Assets\Scripts\Counter.cs" Line="28" Column="39" />
+      <File FileName="Assets\Scripts\NuttenCollector.cs" Line="27" Column="66" />
+      <File FileName="Assets\Scripts\PlayerMovement.cs" Line="47" Column="17" />
       <File FileName="Assets\Scripts\Nutte.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Floor.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\SkylineScroller.cs" Line="14" Column="47" />
-      <File FileName="Assets\Scripts\Cokeline.cs" Line="5" Column="1" />
-      <File FileName="Assets\Scripts\GameEventManager.cs" Line="13" Column="12" />
+      <File FileName="Assets\Scripts\Cokeline.cs" Line="40" Column="22" />
+      <File FileName="Assets\Scripts\GameEventManager.cs" Line="23" Column="6" />
+      <File FileName="Assets\Scripts\Nuttenspawner.cs" Line="19" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

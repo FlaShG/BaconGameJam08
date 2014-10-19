@@ -42,8 +42,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (sniff) {
             if(Cokeline.IsOverCoke(transform.position.x)){
-                koks += Time.deltaTime;
+                koks = Time.deltaTime + Counter.multiplier;
                 counter.UpdateText(koks);
+
             }
             else
             {
@@ -52,5 +53,8 @@ public class PlayerMovement : MonoBehaviour
         }
 
         GetComponent<Animator> ().SetBool ("Sniff", sniff);
+
+        if(sniff && !audio.isPlaying) audio.Play();
+        else if(!sniff && audio.isPlaying) audio.Stop();
 	}
 }
