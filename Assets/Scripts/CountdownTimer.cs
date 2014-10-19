@@ -17,7 +17,7 @@ public class CountdownTimer : MonoBehaviour {
 	{
         int remainingSecs = timeLimit - Mathf.FloorToInt(Time.time - startTime);
         if(remainingSecs < 0) {
-            Application.Quit();
+            Application.LoadLevel("scores");
         }
         if(remainingSecs < 60) {
             text.text = String.Format("0:{0:00}", remainingSecs);
