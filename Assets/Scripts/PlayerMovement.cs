@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float power = 300;
+    public float power = 500;
     private float koks;
     public Counter counter;
 
@@ -49,6 +49,7 @@ public class PlayerMovement : MonoBehaviour
             else
             {
                 sniff = false;
+                power += (int)Counter.multiplier*100;
             }
         }
 
