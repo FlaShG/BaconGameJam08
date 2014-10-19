@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Floor : MonoBehaviour {
 	public GameObject bloodsplash;
+    public SoundCollection BodenSounds;
 	// Use this for initialization
 	void Start () {
 	
@@ -19,6 +20,7 @@ public class Floor : MonoBehaviour {
 		{
 			Destroy(collision.gameObject);
 			Instantiate(bloodsplash, collision.contacts[0].point,Quaternion.identity);
+            audio.PlayOneShot(BodenSounds.GetRandom());
 		}
 	}
 }
