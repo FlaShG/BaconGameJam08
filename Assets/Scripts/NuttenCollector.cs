@@ -3,6 +3,7 @@ using System.Collections;
 
 public class NuttenCollector : MonoBehaviour {
 
+    public AudioClip[] nuttenSounds;
 	public int nuttenCollected;
 	// Use this for initialization
 	void Start () {
@@ -20,6 +21,7 @@ public class NuttenCollector : MonoBehaviour {
 		{
 			Destroy(collision.gameObject);
 			nuttenCollected++;
+            //audio.PlayOneShot(nuttenSounds[Random.Range(0, nuttenSounds.Length)]);
 		}
 	}
 
