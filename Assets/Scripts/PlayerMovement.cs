@@ -4,7 +4,8 @@ using System.Collections;
 public class PlayerMovement : MonoBehaviour
 {
     public float power = 300;
-
+    private int koks;
+    public Counter counter;
 	void FixedUpdate()
     {
 #if (UNITY_ANDROID || UNITY_IPHONE) && !UNITY_EDITOR
@@ -32,9 +33,16 @@ public class PlayerMovement : MonoBehaviour
         rigidbody2D.AddForce(new Vector3(movement * power * Time.deltaTime * 50, 0, 0));
 
         var pos = transform.position;
-
         pos.y = 0;
-
         transform.position = pos;
+
+        var sniff = Input.GetKey (KeyCode.Space);
+
+        if (sniff) {
+            if(Cokeline.IsOverCoke(transform.position.x)){
+                koks += (int)Time.deltaTime;
+                counter.UpdateText(koks);
+            }
+        }
 	}
 }

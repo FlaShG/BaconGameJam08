@@ -13,17 +13,18 @@ public class GameEventManager : MonoBehaviour {
 	IEnumerator ManageGame () {
         while (enabled) 
         {
-            yield return new WaitForSeconds(Random.Range(20f,30f));
-            yield return StartCoroutine(Cokeline());
+            yield return new WaitForSeconds(Random.Range(5f,5f));//(20f,30f));
+            yield return StartCoroutine(MakeCokeline());
 
         }
 
 	}
-    IEnumerator Cokeline()
+    IEnumerator MakeCokeline()
     {
+        print ("ficken");
         nuttenspawner.enabled=false;
-       var cl = Instantiate (cokeline) as Cokeline;
-        yield return cl.DoCoke();
+        var cl = Instantiate (cokeline) as Cokeline;
+        yield return StartCoroutine(cl.DoCoke());
         nuttenspawner.enabled = true;
     }
 }
