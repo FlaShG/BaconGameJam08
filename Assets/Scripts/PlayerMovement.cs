@@ -43,6 +43,12 @@ public class PlayerMovement : MonoBehaviour
                 koks += (int)Time.deltaTime;
                 counter.UpdateText(koks);
             }
+            else
+            {
+                sniff = false;
+            }
         }
+
+        GetComponent<Animator> ().SetBool ("Sniff", sniff);
 	}
 }
