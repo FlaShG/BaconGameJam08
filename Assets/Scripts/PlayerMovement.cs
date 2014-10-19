@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerMovement : MonoBehaviour
 {
     public float power = 300;
-    private int koks;
+    private float koks;
     public Counter counter;
 
 
@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (sniff) {
             if(Cokeline.IsOverCoke(transform.position.x)){
-                koks += (int)Time.deltaTime;
+                koks += Time.deltaTime;
                 counter.UpdateText(koks);
             }
             else

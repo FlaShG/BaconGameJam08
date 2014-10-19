@@ -18,5 +18,10 @@ public class Counter : MonoBehaviour {
 	{
 		text.text = "$ " + count;
 	}
+
+    public void UpdateText(float count)
+    {
+        text.text = count + "";
+    }
 	
 }
