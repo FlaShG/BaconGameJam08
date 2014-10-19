@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Counter.cs" />
      <Compile Include="Assets\Scripts\Floor.cs" />
+     <Compile Include="Assets\Scripts\LoadSniff.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\Nutte.cs" />
      <Compile Include="Assets\Scripts\NuttenCollector.cs" />
