@@ -10,9 +10,17 @@ public class Menu : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	    if(Input.anyKey)
+#if (UNITY_ANDROID || UNITY_IPHONE) && !UNITY_EDITOR
+        if(Input.touchCount>0)
         {
             Application.LoadLevel("game 1");
         }
+#else
+                       if (Input.anyKey)
+        {
+            Application.LoadLevel("game 1");
+        }
+#endif
+	    
 	}
 }
