@@ -4,6 +4,7 @@ using System.Collections;
 public class NuttenCollector : MonoBehaviour {
 
     public SoundCollection nuttenSounds;
+    public SoundCollection OhyeahSounds;
 	public int nuttenCollected;
 	// Use this for initialization
 	void Start () {
@@ -23,6 +24,10 @@ public class NuttenCollector : MonoBehaviour {
 			nuttenCollected++;
             audio.PlayOneShot(nuttenSounds.GetRandom());
 		}
+        if(nuttenCollected==50)
+        {
+            audio.PlayOneShot(OhyeahSounds.GetRandom(),2.5f);
+        }
 	}
 
 }
