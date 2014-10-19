@@ -53,5 +53,8 @@ public class PlayerMovement : MonoBehaviour
         }
 
         GetComponent<Animator> ().SetBool ("Sniff", sniff);
+
+        if(sniff && !audio.isPlaying) audio.Play();
+        else if(!sniff && audio.isPlaying) audio.Stop();
 	}
 }
