@@ -18,7 +18,7 @@ public class Menu : MonoBehaviour {
 #else
                        if (Input.anyKey)
         {
-            Application.LoadLevel("game 1");
+            Application.LoadLevel("load");
         }
 #endif
 	    
