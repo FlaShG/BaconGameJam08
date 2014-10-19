@@ -46,12 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Counter.cs" />
      <Compile Include="Assets\Scripts\Floor.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\Nutte.cs" />
      <Compile Include="Assets\Scripts\NuttenCollector.cs" />
      <Compile Include="Assets\Scripts\Nuttenspawner.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\SkylineScroller.cs" />
      <Compile Include="Assets\Scripts\SoundCollection.cs" />
      <Compile Include="Assets\Scripts\bloodsplash.cs" />
      <Compile Include="Assets\Scripts\moneysplash.cs" />
