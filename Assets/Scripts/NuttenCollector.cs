@@ -26,7 +26,7 @@ public class NuttenCollector : MonoBehaviour {
 		}
         if(nuttenCollected==50)
         {
-            audio.PlayOneShot(OhyeahSounds.GetRandom(),2.5f);
+            audio.PlayOneShot(OhyeahSounds.GetRandom(),4.5f);
         }
 	}
 
