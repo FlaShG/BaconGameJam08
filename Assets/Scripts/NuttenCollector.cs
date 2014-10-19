@@ -7,6 +7,7 @@ public class NuttenCollector : MonoBehaviour {
     public SoundCollection nuttenSounds;
     public SoundCollection OhyeahSounds;
 	public int nuttenCollected;
+	public Counter counter;
 	// Use this for initialization
 	void Start () {
 	
@@ -23,6 +24,7 @@ public class NuttenCollector : MonoBehaviour {
 		{
 			Destroy(collision.gameObject);
 			nuttenCollected++;
+			counter.UpdateText(nuttenCollected*100);
             moneysplash.Emit(20);
             audio.PlayOneShot(nuttenSounds.GetRandom());
 		}
