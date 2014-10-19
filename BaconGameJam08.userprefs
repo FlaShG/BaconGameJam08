@@ -1,13 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\NuttenCollector.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameEventManager.cs">
     <Files>
-      <File FileName="BaconGameJam08.sln" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Counter.cs" Line="19" Column="18" />
-      <File FileName="Assets\Scripts\NuttenCollector.cs" Line="37" Column="2" />
+      <File FileName="BaconGameJam08.sln" Line="42" Column="1" />
+      <File FileName="Assets\Scripts\Counter.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\NuttenCollector.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayerMovement.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Nutte.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Floor.cs" Line="22" Column="4" />
+      <File FileName="Assets\Scripts\Floor.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SkylineScroller.cs" Line="14" Column="47" />
+      <File FileName="Assets\Scripts\Cokeline.cs" Line="5" Column="1" />
+      <File FileName="Assets\Scripts\GameEventManager.cs" Line="13" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
