@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\Nuttenspawner.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\SoundCollection.cs" />
+     <Compile Include="Assets\Scripts\TextureCollection.cs" />
      <Compile Include="Assets\Scripts\bloodsplash.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
