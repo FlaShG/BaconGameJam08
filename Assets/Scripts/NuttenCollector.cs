@@ -24,7 +24,7 @@ public class NuttenCollector : MonoBehaviour {
 		{
 			Destroy(collision.gameObject);
 			nuttenCollected++;
-			counter.UpdateText(nuttenCollected*100);
+			counter.UpdateText(nuttenCollected*100*(int)Counter.multiplier);
             moneysplash.Emit(20);
             audio.PlayOneShot(nuttenSounds.GetRandom());
 		}

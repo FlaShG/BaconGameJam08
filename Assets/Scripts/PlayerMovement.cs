@@ -42,8 +42,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (sniff) {
             if(Cokeline.IsOverCoke(transform.position.x)){
-                koks += Time.deltaTime;
+                koks = Time.deltaTime + Counter.multiplier;
                 counter.UpdateText(koks);
+
             }
             else
             {
