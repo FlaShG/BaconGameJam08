@@ -4,7 +4,8 @@ using System.Collections;
 using UnityEditor;
 #endif
 
-public class SoundCollection : ScriptableObject {
+public class SoundCollection : ScriptableObject 
+{
 
     public AudioClip[] sounds;
 

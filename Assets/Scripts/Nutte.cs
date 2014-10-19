@@ -8,7 +8,7 @@ public class Nutte : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		force = Random.Range (minforce, maxforce);
-		gameObject.rigidbody2D.AddForce(new Vector2(force,0));
+		gameObject.rigidbody2D.AddForce(new Vector2(Random.Range(-force,force),0));
 	}
 	
 	// Update is called once per frame
