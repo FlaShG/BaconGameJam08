@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float power = 20;
+    public float power = 120;
 
 	void FixedUpdate()
     {
