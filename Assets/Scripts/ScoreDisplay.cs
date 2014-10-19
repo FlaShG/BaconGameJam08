@@ -9,6 +9,8 @@ public class ScoreDisplay : MonoBehaviour {
 	void Start () {
         text.text = "Score: $ " + Counter.cash;
         canQuit = false;
+        Counter.cash = 0;
+        Counter.multiplier = 1f;
         Invoke("EnableQuit", 5);
 	}
     
