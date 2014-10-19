@@ -4,3 +4,5 @@
 /UnityVS.*
 /obj
 /*.sln
+/Build
+/ProjectSettings/EditorBuildSettings.asset

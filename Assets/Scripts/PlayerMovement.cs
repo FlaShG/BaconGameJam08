@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
 
 	void FixedUpdate()
     {
-#if UNITY_ANDROID || UNITY_IPHONE
+#if (UNITY_ANDROID || UNITY_IPHONE) && !UNITY_EDITOR
         var left = 0;
         var right = 0;
         var half = Screen.width / 2f;
