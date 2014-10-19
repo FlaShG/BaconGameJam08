@@ -7,7 +7,29 @@ public class PlayerMovement : MonoBehaviour
 
 	void FixedUpdate()
     {
-        rigidbody2D.AddForce(new Vector3(Input.GetAxis("Horizontal") * power * Time.deltaTime * 50, 0, 0));
+#if UNITY_ANDROID || UNITY_IPHONE
+        var left = 0;
+        var right = 0;
+        var half = Screen.width / 2f;
+
+        foreach(var touch in Input.touches)
+        {
+            if(touch.position.x < half)
+            {
+                left = -1;
+            }
+            else
+            {
+                right = 1;
+            }
+        }
+
+        var movement = left + right;
+#else
+        var movement = Input.GetAxis("Horizontal");
+#endif
+
+        rigidbody2D.AddForce(new Vector3(movement * power * Time.deltaTime * 50, 0, 0));
 
         var pos = transform.position;
 
