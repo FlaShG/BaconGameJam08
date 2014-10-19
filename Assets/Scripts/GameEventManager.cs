@@ -13,7 +13,7 @@ public class GameEventManager : MonoBehaviour {
 	IEnumerator ManageGame () {
         while (enabled) 
         {
-            yield return new WaitForSeconds(Random.Range(5f,5f));//(20f,30f));
+            yield return new WaitForSeconds(10f);//(20f,30f));
             yield return StartCoroutine(MakeCokeline());
 
         }
