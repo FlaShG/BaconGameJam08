@@ -12,7 +12,7 @@ public class Menu : MonoBehaviour {
 	void Update () {
 	    if(Input.anyKey)
         {
-            Application.LoadLevel("game1");
+            Application.LoadLevel("game 1");
         }
 	}
 }
