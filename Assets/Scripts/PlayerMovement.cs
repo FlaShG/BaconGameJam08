@@ -6,6 +6,8 @@ public class PlayerMovement : MonoBehaviour
     public float power = 300;
     private int koks;
     public Counter counter;
+
+
 	void FixedUpdate()
     {
 #if (UNITY_ANDROID || UNITY_IPHONE) && !UNITY_EDITOR
