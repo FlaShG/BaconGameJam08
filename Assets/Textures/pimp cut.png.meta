@@ -132,8 +132,8 @@ TextureImporter:
         y: 3382
         width: 618
         height: 272
-      alignment: 4
-      pivot: {x: 0, y: .5}
+      alignment: 9
+      pivot: {x: .221652433, y: .499999106}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: pimp right upper leg
       rect:
@@ -142,8 +142,8 @@ TextureImporter:
         y: 2959
         width: 366
         height: 673
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 9
+      pivot: {x: .574853778, y: .796461105}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: pimp left upper leg
       rect:
@@ -152,8 +152,8 @@ TextureImporter:
         y: 3002
         width: 307
         height: 620
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 9
+      pivot: {x: .618984759, y: .793791354}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: pimp cut_9
       rect:
@@ -172,8 +172,8 @@ TextureImporter:
         y: 2916
         width: 592
         height: 312
-      alignment: 4
-      pivot: {x: 0, y: .5}
+      alignment: 9
+      pivot: {x: .215961352, y: .529268682}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: pimp cut_11
       rect:
@@ -192,8 +192,8 @@ TextureImporter:
         y: 2092
         width: 490
         height: 770
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 9
+      pivot: {x: .4440898, y: .833961844}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: pimp left lower leg
       rect:
@@ -202,8 +202,8 @@ TextureImporter:
         y: 2108
         width: 468
         height: 758
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 9
+      pivot: {x: .363409579, y: .819285691}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: pimp cut_14
       rect:
