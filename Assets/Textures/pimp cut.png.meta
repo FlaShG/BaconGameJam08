@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: 1c59abbc4aca55f46aec39db0d5a5b8f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pimp right hand
+    21300002: pimp left upper arm
+    21300004: pimp left lower arm
+    21300006: pimp left hand
+    21300008: pimp bulge
+    21300010: pimp cut_5
+    21300012: pimp right lower arm
+    21300014: pimp right upper leg
+    21300016: pimp left upper leg
+    21300018: pimp cut_9
+    21300020: pimp right upper arm
+    21300022: pimp cut_11
+    21300024: pimp right lower leg
+    21300026: pimp left lower leg
+    21300028: pimp cut_14
+    21300030: pimp cut_15
+    21300032: pimp cart
+    21300034: pimp cut_17
+    21300036: pimp head
+    21300038: pimp coat 1
+    21300040: pimp coat 2
+    21300042: pimp torso
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1500
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: pimp right hand
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 3778
+        width: 280
+        height: 213
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp left upper arm
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 3805
+        width: 392
+        height: 221
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp left lower arm
+      rect:
+        serializedVersion: 2
+        x: 3782
+        y: 3800
+        width: 462
+        height: 226
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp left hand
+      rect:
+        serializedVersion: 2
+        x: 4371
+        y: 3800
+        width: 229
+        height: 214
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp bulge
+      rect:
+        serializedVersion: 2
+        x: 4802
+        y: 3697
+        width: 503
+        height: 356
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp cut_5
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 3460
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp right lower arm
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 3382
+        width: 618
+        height: 272
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp right upper leg
+      rect:
+        serializedVersion: 2
+        x: 4411
+        y: 2959
+        width: 366
+        height: 673
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp left upper leg
+      rect:
+        serializedVersion: 2
+        x: 4998
+        y: 3002
+        width: 307
+        height: 620
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp cut_9
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 2900
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp right upper arm
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 2916
+        width: 592
+        height: 312
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp cut_11
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 2270
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp right lower leg
+      rect:
+        serializedVersion: 2
+        x: 4384
+        y: 2092
+        width: 490
+        height: 770
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp left lower leg
+      rect:
+        serializedVersion: 2
+        x: 5009
+        y: 2108
+        width: 468
+        height: 758
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp cut_14
+      rect:
+        serializedVersion: 2
+        x: 3954
+        y: 3261
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp cut_15
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 709
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp cart
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 24
+        width: 2638
+        height: 1939
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp cut_17
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 2248
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp head
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 2733
+        width: 1679
+        height: 1223
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp coat 1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 35
+        width: 1120
+        height: 2353
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp coat 2
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 0
+        width: 1061
+        height: 2297
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pimp torso
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 2254
+        width: 651
+        height: 1300
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
